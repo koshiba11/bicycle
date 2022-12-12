@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: gray;
+}
+
+
+header{
+  height: 100px;
+  background-color: #fff;
+}
+
+.header-box{
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+}
+
+.profile-icon{
+  margin-right: auto;
+}
+
+.header-nav{
+  list-style: none;
+  display: flex;
+}
+
+.header-nav-item{
+  margin-left: 15px;
+}
