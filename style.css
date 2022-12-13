@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-body{
-  margin: 0;
-  background-color: gray;
-}
-
-
 header{
   height: 100px;
   background-color: #fff;
@@ -34,4 +28,40 @@ header{
 
 .header-nav-item{
   margin-left: 15px;
+}
+
+.main-visual{
+  height: 400px;
+  background-image: url(bicycle_image/01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+main{
+  width: 80%;
+  margin: auto;
+}
+
+.section-about{
+  margin-top: 50px;
+}
+
+h1{
+  text-align: center;
+}
+
+.About-contents{
+  display: flex;
+}
+
+.self-image{
+  background-image: url(bicycle_image/02.jpg);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+}
+
+.self-text{
+  margin-top: 50px;
 }
